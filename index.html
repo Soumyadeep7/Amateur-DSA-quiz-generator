@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random DSA Quiz by Soumyadeep (BoredDev)</title>
+    <meta name="description" content="Just know how good your DSA is">
+    <link rel="stylesheet" href="styles.css"> <!-- note: .css lowercase is conventional -->
+</head>
+
+<body>
+
+    <header>
+        <p class="credit">Developed by World's most Bored Dev 😴</p>
+    </header>
+
+    <main id="home">
+        <h1>Random DSA Quiz</h1>
+
+        <section id="topics" class="section">
+            <label for="topic-select">Choose Topic:</label>
+            <select id="topic-select">
+                <option value="all">All Topics</option>
+                <option value="arrays">Arrays</option>
+                <option value="stacks">Stacks</option>
+                <option value="queue">Queue</option>
+                <option value="linked-lists">Linked Lists</option>
+                <option value="graphs">Graphs</option>
+                <option value="sorting">Sorting</option>
+                <option value="hashmaps">Hashmaps</option>
+                <option value="complexity">Time/Space Complexity</option>
+                <option value="trees">Trees</option>
+                <option value="dynamic-programming">Dynamic Programming</option>
+            </select>
+
+            <button class="button" onclick="generate()">Generate</button>
+
+            <p id="output"></p>
+        </section>
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
